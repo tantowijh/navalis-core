@@ -11,11 +11,11 @@ if( !class_exists('trydo_Info_Widget') ){
         function __construct(){
 
             $widget_options = array(
-                'description'                   => esc_html__('Trydo: info here', 'trydo'),
+                'description'                   => esc_html__('Navalis: info here', 'trydo'),
                 'customize_selective_refresh'   => true,
             );
 
-            parent:: __construct('trydo_Info_Widget', esc_html__( 'Trydo: Info', 'trydo'), $widget_options );
+            parent:: __construct('trydo_Info_Widget', esc_html__( 'Navalis: Info', 'trydo'), $widget_options );
 
         }
         /**

@@ -38,7 +38,7 @@ class Trydo_Elementor_Widget_AboutWithExperience extends Widget_Base
     {
 
         // Section Title
-        $this->rbt_section_title('about_section_title', 'Title and Content', 'About With Us', 'Save your time by using Trydo and present yours.', 'h2', 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. have suffered alteration in some form majority.', 'text-left');
+        $this->rbt_section_title('about_section_title', 'Title and Content', 'About With Us', 'Save your time by using Navalis and present yours.', 'h2', 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. have suffered alteration in some form majority.', 'text-left');
         $this->start_controls_section(
             '_tab',
             [

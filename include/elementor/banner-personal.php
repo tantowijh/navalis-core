@@ -38,7 +38,7 @@ class Trydo_Elementor_Widget_Personal_Banner extends Widget_Base
     {
 
         // Title and content
-        $this->rbt_section_title('title_and_content', 'Title & Content', 'FREELANCE DIGITAL DESIGNER', 'Hello, I’m <span>Nancy</span> Welcome to my World.', 'h1', '', 'text-left', false);
+        $this->rbt_section_title('title_and_content', 'Title & Content', 'FREELANCE DIGITAL DESIGNER', 'Hello, I’m <span>Faiz</span> Welcome to my World.', 'h1', '', 'text-left', false);
 
 
         $this->start_controls_section(

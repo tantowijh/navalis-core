@@ -97,42 +97,42 @@ class Trydo_Elementor_Widget_Testimonial extends Widget_Base
                 'fields' =>  $repeater->get_controls(),
                 'default' => [
                     [
-                        'reviewer_name' => esc_html__( 'FATIMA ASRAFY', 'trydo' ),
+                        'reviewer_name' => esc_html__( 'Nauffal Attarghani', 'trydo' ),
                         'reviewer_title' => esc_html__( '- COO, AMERIMAR ENTERPRISES, INC.', 'trydo' ),
                         'review_content' => esc_html__( 'Aklima The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.', 'trydo' ),
                     ],
                     [
-                        'reviewer_name' => esc_html__( 'FATIMA ASRAFY', 'trydo' ),
+                        'reviewer_name' => esc_html__( 'Hanif Muqoffa', 'trydo' ),
                         'reviewer_title' => esc_html__( '- COO, AMERIMAR ENTERPRISES, INC.', 'trydo' ),
                         'review_content' => esc_html__( 'Aklima The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.', 'trydo' ),
                     ],
                     [
-                        'reviewer_name' => esc_html__( 'FATIMA ASRAFY', 'trydo' ),
+                        'reviewer_name' => esc_html__( 'Dliyaa', 'trydo' ),
                         'reviewer_title' => esc_html__( '- COO, AMERIMAR ENTERPRISES, INC.', 'trydo' ),
                         'review_content' => esc_html__( 'Aklima The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.', 'trydo' ),
                     ],
                     [
-                        'reviewer_name' => esc_html__( 'FATIMA ASRAFY', 'trydo' ),
+                        'reviewer_name' => esc_html__( 'Dudur', 'trydo' ),
                         'reviewer_title' => esc_html__( '- COO, AMERIMAR ENTERPRISES, INC.', 'trydo' ),
                         'review_content' => esc_html__( 'Aklima The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.', 'trydo' ),
                     ],
                     [
-                        'reviewer_name' => esc_html__( 'FATIMA ASRAFY', 'trydo' ),
+                        'reviewer_name' => esc_html__( 'N Sintia', 'trydo' ),
                         'reviewer_title' => esc_html__( '- COO, AMERIMAR ENTERPRISES, INC.', 'trydo' ),
                         'review_content' => esc_html__( 'Aklima The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.', 'trydo' ),
                     ],
                     [
-                        'reviewer_name' => esc_html__( 'FATIMA ASRAFY', 'trydo' ),
+                        'reviewer_name' => esc_html__( 'N Hidayah', 'trydo' ),
                         'reviewer_title' => esc_html__( '- COO, AMERIMAR ENTERPRISES, INC.', 'trydo' ),
                         'review_content' => esc_html__( 'Aklima The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.', 'trydo' ),
                     ],
                     [
-                        'reviewer_name' => esc_html__( 'FATIMA ASRAFY', 'trydo' ),
+                        'reviewer_name' => esc_html__( 'FATMA N', 'trydo' ),
                         'reviewer_title' => esc_html__( '- COO, AMERIMAR ENTERPRISES, INC.', 'trydo' ),
                         'review_content' => esc_html__( 'Aklima The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.', 'trydo' ),
                     ],
                     [
-                        'reviewer_name' => esc_html__( 'FATIMA ASRAFY', 'trydo' ),
+                        'reviewer_name' => esc_html__( 'Kennaf Arya', 'trydo' ),
                         'reviewer_title' => esc_html__( '- COO, AMERIMAR ENTERPRISES, INC.', 'trydo' ),
                         'review_content' => esc_html__( 'Aklima The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.', 'trydo' ),
                     ],

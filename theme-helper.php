@@ -445,7 +445,7 @@ function rbt_add_custom_icons_tab($tabs = array())
 
     $tabs['rbt-feather-icons'] = array(
         'name' => 'rbt-feather-icons',
-        'label' => esc_html__('Trydo - Feather Icons', 'trydo'),
+        'label' => esc_html__('Navalis - Feather Icons', 'trydo'),
         'labelIcon' => 'rt-icon',
         'prefix' => '',
         'displayPrefix' => 'rbt',

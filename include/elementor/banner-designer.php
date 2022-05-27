@@ -38,7 +38,7 @@ class Trydo_Elementor_Widget_Designer_Banner extends Widget_Base
     {
 
         // Title and content
-        $this->rbt_section_title('trydo_designer_title_and_content', 'Title & Content', 'WELCOME TO MY WORLD', 'Hi, I’m Jone Doe <br> <span> UX Designer.</span>', 'h1', 'based in USA.', 'text-left', false);
+        $this->rbt_section_title('trydo_designer_title_and_content', 'Title & Content', 'WELCOME TO MY WORLD', 'Hi, I’m Thowie Studio <br> <span> UX Designer.</span>', 'h1', 'based in USA.', 'text-left', false);
 
         $this->start_controls_section(
             '_trydo_designer_thumbnail',

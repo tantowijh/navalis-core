@@ -10,11 +10,11 @@ if( !class_exists('trydo_Recent_Post') ){
         function __construct(){
 
             $widget_options = array(
-                'description'                   => esc_html__('Trydo: Recent post here', 'trydo'),
+                'description'                   => esc_html__('Navalis: Recent post here', 'trydo'),
                 'customize_selective_refresh'   => true,
             );
 
-            parent:: __construct('trydo_Recent_Post', esc_html__( 'Trydo: Recent Post', 'trydo'), $widget_options );
+            parent:: __construct('trydo_Recent_Post', esc_html__( 'Navalis: Recent Post', 'trydo'), $widget_options );
 
         }
         /**
