@@ -7,7 +7,7 @@ add_filter('acf/settings/save_json', 'my_acf_json_save_point');
 function my_acf_json_save_point( $path ) {
     
     // Update path
-    $path = get_template_directory(). '/lib/acf-json';
+    $path = WP_PLUGIN_DIR . '/navalis-core' . '/include/acf-json';
     // Return path
     return $path;
     
@@ -21,12 +21,12 @@ add_filter('acf/settings/load_json', 'my_acf_json_load_point');
 function my_acf_json_load_point( $paths ) {
    // Remove original path
    unset( $paths[0] );// Append our new path
-   $paths[] = get_template_directory(). '/lib/acf-json';   return $paths;
+   $paths[] = plugin_dir_path( __FILE__ ) . '/include/acf-json';   return $paths;
 }
 
 // Define path and URL to the ACF plugin.
-define( 'MY_ACF_PATH', get_stylesheet_directory() . '/inc/acf/' );
-define( 'MY_ACF_URL', get_stylesheet_directory_uri() . '/inc/acf/' );
+define( 'MY_ACF_PATH', WP_PLUGIN_DIR . '/navalis-core' . '/include/acf/' );
+define( 'MY_ACF_URL', plugin_dir_url( __FILE__ ) . '/include/acf/' );
 
 // Include the ACF plugin.
 include_once( MY_ACF_PATH . 'acf.php' );
