@@ -21,7 +21,7 @@ add_filter('acf/settings/load_json', 'my_acf_json_load_point');
 function my_acf_json_load_point( $paths ) {
    // Remove original path
    unset( $paths[0] );// Append our new path
-   $paths[] = plugin_dir_path( __FILE__ ) . '/include/acf-json';   return $paths;
+   $paths[] = WP_PLUGIN_DIR . '/navalis-core' . '/include/acf-json';   return $paths;
 }
 
 // Define path and URL to the ACF plugin.
