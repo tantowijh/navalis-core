@@ -21,12 +21,12 @@ add_filter('acf/settings/load_json', 'my_acf_json_load_point');
 function my_acf_json_load_point( $paths ) {
    // Remove original path
    unset( $paths[0] );// Append our new path
-   $paths[] = get_template_directory(). '/include/acf-json';   return $paths;
+   $paths[] = plugin_dir_path(). '/include/acf-json';   return $paths;
 }
 
 // Define path and URL to the ACF plugin.
 define( 'MY_ACF_PATH', get_stylesheet_directory() . '/include/acf/' );
-define( 'MY_ACF_URL', get_stylesheet_directory_uri() . '/include/acf/' );
+define( 'MY_ACF_URL', plugin_dir_url() . '/include/acf/' );
 
 // Include the ACF plugin.
 include_once( MY_ACF_PATH . 'acf.php' );
