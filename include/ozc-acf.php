@@ -1,6 +1,6 @@
 <?php
 
-//Save and Load ACF JSON
+/* //Save and Load ACF JSON
 define( 'MY_PLUGIN_DIR_PATH', untrailingslashit( plugin_dir_path( __FILE__ ) ) );
 add_filter('acf/settings/save_json', 'my_acf_json_save_point');
  
@@ -18,11 +18,11 @@ add_filter('acf/settings/load_json', 'my_acf_json_load_point');
  * @param $paths The default relative path to the folder where ACF saves the files.
  * @return string The new relative path to the folder where we are saving the files.
  */
-function my_acf_json_load_point( $paths ) {
+/* function my_acf_json_load_point( $paths ) {
    // Remove original path
    unset( $paths[0] );// Append our new path
    $paths[] = WP_PLUGIN_DIR . '/navalis-core' . '/include/acf-json';   return $paths;
-}
+} */
 
 // Define path and URL to the ACF plugin.
 define( 'MY_ACF_PATH', WP_PLUGIN_DIR . '/navalis-core' . '/include/acf/' );
