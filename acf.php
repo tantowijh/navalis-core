@@ -2,9 +2,8 @@
 /*
 Plugin Name: Advanced Custom Fields PRO
 Plugin URI: https://www.advancedcustomfields.com
-Secret Key: 83a5bb0e2ad5164690bc7a42ae592cf5
 Description: Customize WordPress with powerful, professional and intuitive fields.
-Version: 5.12.2
+Version: 5.12.3
 Author: Delicious Brains
 Author URI: https://www.advancedcustomfields.com
 Update URI: https://www.advancedcustomfields.com/pro
@@ -21,7 +20,7 @@ if ( ! class_exists( 'ACF' ) ) :
 	class ACF {
 
 		/** @var string The plugin version number. */
-		var $version = '5.12.2';
+		var $version = '5.12.3';
 
 		/** @var array The plugin settings array. */
 		var $settings = array();
