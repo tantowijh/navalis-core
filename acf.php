@@ -76,7 +76,7 @@ if ( ! class_exists( 'ACF' ) ) :
 				'file'                   => __FILE__,
 				'url'                    => plugin_dir_url( __FILE__ ),
 				'show_admin'             => true,
-				'show_updates'           => true,
+				'show_updates'           => false,
 				'stripslashes'           => false,
 				'local'                  => true,
 				'json'                   => true,
